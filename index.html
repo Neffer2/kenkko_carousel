@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="js/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <title>Document</title>
+</head> 
+<body> 
+    <div id="hero_container" class="hero-container">
+        <div id="yellow_circle" class="yellow-circle"></div>
+        <div id="red_circle" class="red-circle"></div>
+        <div class="plate-img child">
+            <img id="hero_image" src="assets/plato1.png" alt="plato 1">
+        </div>
+        <div class="plate-info child">
+            <div class="titles">
+                <h1 id="hero_first_title" class="title lighter">LOREM IPSUM</h1>
+                <h2 id="hero_second_title" class="title bold">LOREM IPSUM</h2> 
+            </div>
+            <p id="hero_plate_description" class="plate-text bold-light">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit.  <br> Qui optio, saepe 
+                atque ullam autem quaerat expedita  <br> veritatis
+                perferendis iste delectus voluptatibus,
+                maxime <br> ad maiores asperiores ea, sequi</p>
+            <div class="plate-actions">
+                <div class="plate-button">
+                    <a id="plate_button" class="button text-large" href="#"> Comprar ahora > </a>
+                    <!-- <button id="" class="button text-large">Comprar ahora ></button> -->
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="owl-carousel">
+                <div class="carousel-card" onclick="card_selection(this, 'plate1')">
+                    <div class="card-header">
+                        <img src="assets/plato1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h3>LOREM IPSUM</h3>
+                        </div>
+                        <div class="content-text">
+                            <p>LOREM IPSUM</p>
+                        </div>
+                        <div class="content-actions">
+                            <a class="button text-small">Comprar ahora ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-card" onclick="card_selection(this, 'plate2')">
+                    <div class="card-header">
+                        <img src="assets/plato2.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h3>LOREM IPSUM</h3>
+                        </div>
+                        <div class="content-text">
+                            <p>LOREM IPSUM</p>
+                        </div>
+                        <div class="content-actions">
+                            <a class="button text-small">Comprar ahora ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-card" onclick="card_selection(this, 'plate3')">
+                    <div class="card-header">
+                        <img src="assets/plato3.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h3>LOREM IPSUM</h3>
+                        </div>
+                        <div class="content-text">
+                            <p>LOREM IPSUM</p>
+                        </div>
+                        <div class="content-actions">
+                            <a class="button text-small">Comprar ahora ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-card" onclick="card_selection(this, 'plate4')">
+                    <div class="card-header">
+                        <img src="assets/plato1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h3>LOREM IPSUM</h3>
+                        </div>
+                        <div class="content-text">
+                            <p>LOREM IPSUM</p>
+                        </div>
+                        <div class="content-actions">
+                            <a class="button text-small">Comprar ahora ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-card" onclick="card_selection(this, 'plate5')">
+                    <div class="card-header">
+                        <img src="assets/plato2.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h3>LOREM IPSUM</h3>
+                        </div>
+                        <div class="content-text">
+                            <p>LOREM IPSUM</p>
+                        </div>
+                        <div class="content-actions">
+                            <a class="button text-small">Comprar ahora ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- carosel -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/OwlCarousel/dist/owl.carousel.js"></script>
+    <!-- app -->
+    <script src="js/app.js"></script>
+</body> 
+</html>
